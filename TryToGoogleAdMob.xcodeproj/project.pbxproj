@@ -12,6 +12,18 @@
 		00C139B51E0B2B4800B40C6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00C139B31E0B2B4800B40C6B /* Main.storyboard */; };
 		00C139B71E0B2B4800B40C6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00C139B61E0B2B4800B40C6B /* Assets.xcassets */; };
 		00C139BA1E0B2B4800B40C6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00C139B81E0B2B4800B40C6B /* LaunchScreen.storyboard */; };
+		00C139C31E0B3A4300B40C6B /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C139C21E0B3A4300B40C6B /* GoogleMobileAds.framework */; };
+		00C139C51E0B3B5800B40C6B /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C139C41E0B3B5800B40C6B /* AdSupport.framework */; };
+		00C139C71E0B3B6600B40C6B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C139C61E0B3B6600B40C6B /* AudioToolbox.framework */; };
+		00C139C91E0B3B7200B40C6B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C139C81E0B3B7200B40C6B /* AVFoundation.framework */; };
+		00C139CB1E0B3B7E00B40C6B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C139CA1E0B3B7E00B40C6B /* CoreGraphics.framework */; };
+		00C139CD1E0B3B8B00B40C6B /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C139CC1E0B3B8B00B40C6B /* CoreTelephony.framework */; };
+		00C139CF1E0B3B9500B40C6B /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C139CE1E0B3B9500B40C6B /* EventKitUI.framework */; };
+		00C139D11E0B3BA000B40C6B /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C139D01E0B3BA000B40C6B /* EventKit.framework */; };
+		00C139D31E0B3BAB00B40C6B /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C139D21E0B3BAB00B40C6B /* MessageUI.framework */; };
+		00C139D51E0B3BB600B40C6B /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C139D41E0B3BB600B40C6B /* StoreKit.framework */; };
+		00C139D71E0B3BC000B40C6B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C139D61E0B3BC000B40C6B /* SystemConfiguration.framework */; };
+		6B8EEF37C5D8477D3A34AD6A /* Pods_TryToGoogleAdMob.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAFA538928AA9B055E567839 /* Pods_TryToGoogleAdMob.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +34,20 @@
 		00C139B61E0B2B4800B40C6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00C139B91E0B2B4800B40C6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00C139BB1E0B2B4800B40C6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00C139C21E0B3A4300B40C6B /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = "../../GoogleMobileAdsSdkiOS-7.16.0/GoogleMobileAds.framework"; sourceTree = "<group>"; };
+		00C139C41E0B3B5800B40C6B /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		00C139C61E0B3B6600B40C6B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		00C139C81E0B3B7200B40C6B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		00C139CA1E0B3B7E00B40C6B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		00C139CC1E0B3B8B00B40C6B /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		00C139CE1E0B3B9500B40C6B /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		00C139D01E0B3BA000B40C6B /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		00C139D21E0B3BAB00B40C6B /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		00C139D41E0B3BB600B40C6B /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		00C139D61E0B3BC000B40C6B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		498CFB597AB4C409384E0035 /* Pods-TryToGoogleAdMob.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TryToGoogleAdMob.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TryToGoogleAdMob/Pods-TryToGoogleAdMob.debug.xcconfig"; sourceTree = "<group>"; };
+		CAFA538928AA9B055E567839 /* Pods_TryToGoogleAdMob.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TryToGoogleAdMob.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D84B22863A8DF3B37C15AD22 /* Pods-TryToGoogleAdMob.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TryToGoogleAdMob.release.xcconfig"; path = "Pods/Target Support Files/Pods-TryToGoogleAdMob/Pods-TryToGoogleAdMob.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +55,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00C139D71E0B3BC000B40C6B /* SystemConfiguration.framework in Frameworks */,
+				00C139D51E0B3BB600B40C6B /* StoreKit.framework in Frameworks */,
+				00C139D31E0B3BAB00B40C6B /* MessageUI.framework in Frameworks */,
+				00C139D11E0B3BA000B40C6B /* EventKit.framework in Frameworks */,
+				00C139CF1E0B3B9500B40C6B /* EventKitUI.framework in Frameworks */,
+				00C139CD1E0B3B8B00B40C6B /* CoreTelephony.framework in Frameworks */,
+				00C139CB1E0B3B7E00B40C6B /* CoreGraphics.framework in Frameworks */,
+				00C139C91E0B3B7200B40C6B /* AVFoundation.framework in Frameworks */,
+				00C139C71E0B3B6600B40C6B /* AudioToolbox.framework in Frameworks */,
+				00C139C51E0B3B5800B40C6B /* AdSupport.framework in Frameworks */,
+				00C139C31E0B3A4300B40C6B /* GoogleMobileAds.framework in Frameworks */,
+				6B8EEF37C5D8477D3A34AD6A /* Pods_TryToGoogleAdMob.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +78,8 @@
 			children = (
 				00C139AE1E0B2B4800B40C6B /* TryToGoogleAdMob */,
 				00C139AD1E0B2B4800B40C6B /* Products */,
+				00C139C11E0B3A4300B40C6B /* Frameworks */,
+				400DC0DB548A78CEE2A20C88 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +104,34 @@
 			path = TryToGoogleAdMob;
 			sourceTree = "<group>";
 		};
+		00C139C11E0B3A4300B40C6B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00C139D61E0B3BC000B40C6B /* SystemConfiguration.framework */,
+				00C139D41E0B3BB600B40C6B /* StoreKit.framework */,
+				00C139D21E0B3BAB00B40C6B /* MessageUI.framework */,
+				00C139D01E0B3BA000B40C6B /* EventKit.framework */,
+				00C139CE1E0B3B9500B40C6B /* EventKitUI.framework */,
+				00C139CC1E0B3B8B00B40C6B /* CoreTelephony.framework */,
+				00C139CA1E0B3B7E00B40C6B /* CoreGraphics.framework */,
+				00C139C81E0B3B7200B40C6B /* AVFoundation.framework */,
+				00C139C61E0B3B6600B40C6B /* AudioToolbox.framework */,
+				00C139C41E0B3B5800B40C6B /* AdSupport.framework */,
+				00C139C21E0B3A4300B40C6B /* GoogleMobileAds.framework */,
+				CAFA538928AA9B055E567839 /* Pods_TryToGoogleAdMob.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		400DC0DB548A78CEE2A20C88 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				498CFB597AB4C409384E0035 /* Pods-TryToGoogleAdMob.debug.xcconfig */,
+				D84B22863A8DF3B37C15AD22 /* Pods-TryToGoogleAdMob.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +139,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00C139BE1E0B2B4800B40C6B /* Build configuration list for PBXNativeTarget "TryToGoogleAdMob" */;
 			buildPhases = (
+				32C1E2A49FF6E6D404590486 /* [CP] Check Pods Manifest.lock */,
 				00C139A81E0B2B4800B40C6B /* Sources */,
 				00C139A91E0B2B4800B40C6B /* Frameworks */,
 				00C139AA1E0B2B4800B40C6B /* Resources */,
+				61FE3D920790082D76639ABD /* [CP] Embed Pods Frameworks */,
+				86981013091FA212B737FF30 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,6 +202,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32C1E2A49FF6E6D404590486 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		61FE3D920790082D76639ABD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TryToGoogleAdMob/Pods-TryToGoogleAdMob-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86981013091FA212B737FF30 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TryToGoogleAdMob/Pods-TryToGoogleAdMob-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		00C139A81E0B2B4800B40C6B /* Sources */ = {
@@ -259,6 +378,7 @@
 		};
 		00C139BF1E0B2B4800B40C6B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 498CFB597AB4C409384E0035 /* Pods-TryToGoogleAdMob.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QUGRN27H3U;
@@ -272,6 +392,7 @@
 		};
 		00C139C01E0B2B4800B40C6B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D84B22863A8DF3B37C15AD22 /* Pods-TryToGoogleAdMob.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QUGRN27H3U;
@@ -302,6 +423,7 @@
 				00C139C01E0B2B4800B40C6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
